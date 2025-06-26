@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
-import "./styles/App.css";
+import { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
-import Navbar from "./components/UI/navbar/Navbar";
 import AppRouter from "./components/AppRouter";
+import Navbar from "./components/UI/navbar/Navbar";
 import { AuthContext } from "./context/context";
 
 function App() {
